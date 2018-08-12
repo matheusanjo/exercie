@@ -1,0 +1,190 @@
+html {	
+	background-color: #F2FFFC;	
+	text-decoration: none;
+	margin: 0px;
+}
+main{
+	float: left;
+	width: 80%;
+
+}
+
+.titulo-pagina {
+	font-family: "Open Sans Condensed", serif;
+	font-size: 60px;
+	background-color: #851944;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 15px;
+	border-bottom: 10px solid black;
+	text-transform: uppercase;
+}
+
+body{
+	 font-family: "Crimson Text", serif;
+	 font-size: 120%;
+	 line-height: 1.5;
+}
+
+h2 {
+	font-family: "Open Sans Condensed";
+	color: black;
+	font-size: 30px;
+	clear: both;
+}
+
+p {
+	margin: 20px 0px;
+	font-size: 15px;
+	font-family: "Crimson Text";
+	color: black;
+	text-align: justify
+}
+
+.leia-link{
+	padding: 8px;
+	margin: 16px;
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 24px;
+	text-align: center;
+	background-color: #E6E7E8;
+
+}
+
+footer {
+    background-color: #000;
+    color: #F2FFFC;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+article {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+
+}
+
+.tag-artigo {
+	background-color: #F2FFFC ;
+	color: black;
+
+}
+
+.citacoes{
+    background-color: #D9E5E3;
+    border: 10px solid #C2CCCA;
+    width: 265px;
+    height: 208px;
+    margin: 20px 40px;
+    border:10px solid #C2CCCA;
+    box-sizing: border-box;
+}
+.direita{
+	float: right;
+}
+.esquerda{
+	float: left;
+}
+
+.titulo-rodape{
+	font-size: 30px;
+	margin-bottom: 25px;
+} 
+
+.navegacao-site {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+aside, img {
+	float: right;
+	box-sizing: border-box;
+	width: 20%;
+	border-left: 10px solid black; 
+	border-bottom:10px solid black;
+}
+img {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+aside {
+	clear: right;	width: 15%;
+	position: relative;
+	top: 270px;
+
+}
+
+.icones-sociais{
+	padding-left: 0px;
+}
+
+.icones-sociais li {
+	display: inline-block;
+	padding: auto;
+	height: 0px;	
+}
+
+.icones-sociais a{
+	width: 40px;
+	height: 40px;
+	display: block;
+	font-size: 0px;
+
+}
+.github{
+	background-image: url(github.png);
+}
+.twitter{
+	background-image: url(twitter.png);
+}
+.linkedin{
+	background-image: url(linkedin.png);
+}
+
+nav a{
+    color: #F2FFFC;
+    text-decoration: none;
+    text-transform: lowercase;
+
+}
+
+ul {
+	color: #851944;
+	text-decoration: none;
+}
+
+blockquote, aside, footer{
+	padding: 10px;
+}
+
+.conteudo-principal{
+	width: 840px;
+	padding: 40px 0;
+	margin: 0 auto; 
+	padding-bottom: 80px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+#rodape-pagina {
+	background-color: #000;
+	color: #F2FFFC
+	padding: 20px;
+	clear: both;
+}
