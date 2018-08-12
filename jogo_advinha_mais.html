@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<input/>
+<button>ok</button>
+
+<script>
+
+	var segredo = [20,30,40,50];
+	var input = document.querySelector("input");
+	input.value
+	
+	function verifica(){
+		
+		if (input.value == segredo){
+			
+			alert("você acertou meu segredo!!");
+		}else {
+
+			alert("VOCÊ ERROU!");
+		}
+	}
+
+	var button = document.querySelector("button");
+	button.onclick = verifica;
+
+</script>

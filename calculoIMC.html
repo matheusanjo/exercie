@@ -1,0 +1,51 @@
+<html>
+
+<meta charset="UTF-8">
+
+<script>
+	
+
+	function jump(){
+		document.write("<br><br>");
+	}
+
+	function show(texto){
+		alert(texto);
+		jump();
+	}
+
+	function calculoImc(peso, altura) {
+		
+		return peso/(altura * altura);
+	}
+	
+	var nome = prompt ("Digite o seu nome ")
+	var peso = prompt(nome + ", informe seu peso: ");
+	var altura = prompt(nome +", agora informe sua altura: ");
+	var imc = calculoImc(peso, altura);
+
+	if (imc <= 18.49){
+
+		show("Você ta fumando muito crack, vai comer!!! ou fume maconha, também da fome ;) ps: não que eu saiba, foi o que me disseram");
+	}
+
+	if (imc >= 18.5 && imc < 35) {	
+
+		show("Você ta saudável, vai usar uma droga, ninguém é perfeito! Se já estiver usando, favor desconsiderar esta mensagem");
+	}
+
+	if (imc >= 35){
+		show("Ou você ta fumando muita maconha, ou você só come igual um filho da puta, vai correr seu arrombado(a), ou fecha a porra da boca, esfomeado fudido");
+	}
+
+	show(nome + ", o seu IMC é "+ imc);
+	show("agora rala peito, mané!");
+
+	
+	
+	
+	
+
+</script>
+
+</html>

@@ -1,0 +1,35 @@
+<html>
+
+<meta charset="UTF-8">
+
+<script>
+
+	function jump(){
+		document.write("<br><br>");
+	}
+
+	function show(text){
+		jump();
+		alert(text);
+	}
+
+	function calculoVida(tempoPerdido, cigarro){
+
+		return (tempoPerdido * cigarro);
+	}
+
+	
+	var nome = prompt("Qual seu nome?");
+	var idade = prompt(nome + ", quantos anos você tem?");
+	var cigarro = 0.5;
+	var tempoPerdido = parseInt(prompt( nome + ", quantos maços de cigarro você já fumou?"));
+	var dias = calculoVida(tempoPerdido, cigarro);
+
+	show(nome + ", você perdeu " + dias + " dias de vida.");
+
+
+
+
+	
+</script>
+</html>
